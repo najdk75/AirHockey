@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="853.0" prefWidth="1060.0" stylesheets="@style/Application.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bcan.pi4.airhockey.Controller">
+<children>
+      <ImageView fitHeight="853.0" fitWidth="1060.0" pickOnBounds="true">
+         <image>
+            <Image url="@maquette/images/game_background.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="TOP_RIGHT" layoutX="310.0" layoutY="34.0" prefHeight="817.0" prefWidth="441.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="636.0" prefWidth="441.0">
+               <children>
+                  <Pane prefHeight="258.0" prefWidth="441.0">
+                     <children>
+                        <ImageView fitHeight="80.0" fitWidth="70.0" layoutX="330.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@maquette/images/parametres.png" />
+                           </image>
+                        </ImageView>
+                     </children></Pane>
+                  <ImageView fitHeight="436.0" fitWidth="381.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@maquette/images/logo_menu_demarrage.png" />
+                     </image>
+                  </ImageView>
+                  <VBox prefHeight="247.0" prefWidth="441.0" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="311.0" prefWidth="441.0" spacing="20.0" stylesheets="style/Application.css">
+               <children>
+                  <Button fx:id="NewGameButton" mnemonicParsing="false" onMouseClicked="#fenetre3" prefHeight="75.0" prefWidth="379.0" text="LANCER UNE PARTIE">
+                     <font>
+                        <Font name="Virtual Rot Regular" size="32.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="orangeButton" />
+                        <String fx:value="text" />
+                     </styleClass></Button>
+                  <Button fx:id="LeaveButton" mnemonicParsing="false" onMouseClicked="#handleClose" prefHeight="75.0" prefWidth="379.0" text="QUITTER">
+                     <font>
+                        <Font name="Virtual Rot Regular" size="28.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="redButton" />
+                        <String fx:value="text" />
+                     </styleClass></Button>
+                  <Label contentDisplay="CENTER" prefHeight="34.0" prefWidth="210.0" text="Identifiant du joueur: #AHG28" textFill="#eeeded" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <Label layoutX="14.0" layoutY="44.0" prefHeight="16.0" prefWidth="85.0" text="C.BELHOUT" textFill="#565862" />
+      <Label layoutX="14.0" layoutY="60.0" styleClass="InriaSansLight" text="N.KACEM" textFill="#565862" />
+      <Label layoutX="14.0" layoutY="76.0" styleClass="InriaSansLight" text="B.NOURINE" textFill="#565862" />
+      <Label layoutX="14.0" layoutY="92.0" stylesheets="@style/Application.css" text="A.PATAUT" textFill="#565862" />
+      <Label layoutX="14.0" layoutY="24.0" prefHeight="16.0" prefWidth="85.0" text="Groupe 28" textFill="#565862">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

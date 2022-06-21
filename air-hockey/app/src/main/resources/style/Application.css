@@ -1,0 +1,94 @@
+
+
+.orangeButton{
+	-fx-background-color:#0000;
+	-fx-border-color : #B4CFFA;
+	-fx-text-fill : #B4CFFA;;
+	-fx-border-width : 3px;
+	-fx-border-radius : 30px;
+	-fx-background-radius:30px;
+	-fx-font-family: "Virtual Rot";
+}
+.FoncButton{
+-fx-background-color:#0000;
+	-fx-border-color : #0957a7;
+	-fx-text-fill : #0957a7;;
+	-fx-border-width : 3px;
+	-fx-border-radius : 30px;
+	-fx-background-radius:30px;
+	-fx-font-family: "Virtual Rot";
+
+}
+.orangeButton:hover{
+	-fx-background-color:#b4cffa;
+	-fx-text-fill:white;
+}
+.FoncButton:hover{
+	-fx-background-color:#0957a7;
+	-fx-text-fill:white;
+}
+.redButton{
+	-fx-background-color:#0000;
+	-fx-border-color : #DD2211;
+	-fx-text-fill : #DD2211;
+	-fx-border-width : 3px;
+	-fx-border-radius : 30px;
+	-fx-background-radius:30px;	
+	-fx-font-family: "Virtual Rot";
+}
+.redButton:hover{
+	-fx-background-color:#dd2211;
+	-fx-text-fill:white;
+}
+.yellowButton{
+	-fx-background-color:#0000;
+	-fx-border-color : #FFF596;
+	-fx-text-fill : #fff596;;
+	-fx-border-width : 3px;
+	-fx-border-radius : 30px;
+	-fx-background-radius:30px;
+	-fx-font-family: "Virtual Rot";
+	
+}
+.yellowButton:hover{
+	-fx-background-color:#FFF596;
+	-fx-text-fill:white;
+}
+@font-face {
+    font-family: 'Virtual Rot';
+    src: url("../../resources/maquette/fonts/VirtualRotRegular-R51V.ttf");
+}
+@font-face {
+    font-family: Inria Sans;
+    src: url("../../resources/maquette/fonts/InriaSans-Light.ttf");
+}
+.ResearchResultLabel{
+	-fx-background-color: #b4cffa;
+	-fx-text-fill: white;
+}
+.ResultLabel{
+	fx-background-color:white;
+}
+.EnterTextField{
+	-fx-background-color:#0000;
+	-fx-text-fill : #606060;
+	fx-border-color:#b4cffa;
+	-fx-border-width : 3px;
+	-fx-border-radius : 30px;
+	-fx-background-radius:30px;
+}
+.StartButton{
+	-fx-background-color:#0000;
+	-fx-text-fill : #b4cffa;
+	-fx-border-color:#b4cffa;
+	-fx-border-width : 3px;
+	-fx-border-radius : 30px;
+	-fx-background-radius:30px;
+
+}
+.StartButton:hover {
+	-fx-background-color: #b4cffa;
+	-fx-text-fill: white;
+
+}
+
